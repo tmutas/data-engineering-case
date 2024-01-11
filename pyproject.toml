@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "data-engineering-case"
+version = "0.1.0"
+description = ""
+authors = ["Timo Mutas <tmutas@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.10"
+jupyter = "^1.0.0"
+pandas = "^2.1.4"
+pandas-profiling = "^3.6.6"
+plotly = "^5.18.0"
+ydata-profiling = "^4.6.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
